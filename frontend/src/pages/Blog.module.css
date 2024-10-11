@@ -1,0 +1,15 @@
+.blog {
+  width: 95%;
+  margin: auto;
+  padding-bottom: 9rem;
+}
+
+.blog .row {
+  /* border: 2px solid brown; */
+  padding: 0 1rem;
+}
+@media (max-width: 700px) {
+  .blog .row {
+    flex-direction: column-reverse;
+  }
+}

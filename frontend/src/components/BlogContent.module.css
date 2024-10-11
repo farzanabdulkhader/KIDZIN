@@ -1,0 +1,113 @@
+.blogPosts {
+  /* border: 1px solid red; */
+  display: flex;
+  margin: 0 4rem;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex: 1;
+}
+@media (max-width: 700px) {
+  .blogPosts {
+    margin: 0;
+  }
+}
+
+.blog {
+  border: 1px solid rgba(128, 128, 128, 0.299);
+
+  text-align: left;
+  padding: 1rem;
+}
+
+.blog .index {
+  margin: 0.25rem 2rem 0 2rem;
+  font-weight: 700;
+  color: rgba(128, 128, 128, 0.299);
+  font-size: 1.2rem;
+  /* border: 1px solid rebeccapurple; */
+}
+
+.blog .header {
+  /* border: 1px solid yellow; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.blog img {
+  padding: 1rem;
+  width: 70%;
+  float: right;
+}
+
+.blog .btn {
+  font-size: 1.5rem;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: var(--peachy-red);
+  float: right;
+  margin-right: 1rem;
+}
+
+.header h2 {
+  /* border: 1px solid yellow; */
+  flex: 1;
+}
+
+.content {
+  display: none;
+  margin-top: 3rem;
+  /* height: 60vh; */
+  /* overflow-y: scroll; */
+}
+
+.show {
+  display: block;
+}
+
+.blogContent {
+  flex-basis: 60%;
+  padding: 0 4rem 0 1rem;
+  height: 70vh;
+  overflow-y: scroll;
+  border: 2px dotted black;
+}
+
+.blogContent img {
+  width: 100%;
+}
+
+.blogContent h1 {
+  color: #222;
+  font-weight: 600;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.blogContent p {
+  color: #999;
+  padding: 0;
+}
+
+.commentBox {
+  border: 1px solid #ccc;
+  margin: 50px 0;
+  padding: 10px 20px;
+}
+.commentBox h3 {
+  text-align: Left;
+}
+.commentForm input,
+.commentForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 15px 0;
+  box-sizing: borderBox;
+  border: none;
+  outline: none;
+  background: #f0f0f0;
+}
+.commentBox button {
+  margin: 10px 0;
+}

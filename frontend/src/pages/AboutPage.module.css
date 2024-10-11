@@ -1,0 +1,42 @@
+.aboutUs {
+  padding: 2rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  /* border: 2px solid brown; */
+  text-align: left;
+}
+
+.aboutContent {
+  /* border: 3px dotted pink; */
+  padding: 2rem;
+}
+
+.aboutUs h1 {
+  /* border: 2px solid blue; */
+  font-size: 2.7rem;
+}
+
+.aboutUs p {
+  padding: 0;
+  padding-bottom: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+}
+
+@media (max-width: 700px) {
+  .aboutUs {
+    padding-top: 5rem;
+  }
+}
+
+.aboutUs img {
+  max-width: 30rem;
+  width: 100%;
+  padding: 2rem;
+}
+
+.aboutBody {
+  text-align: left;
+  /* border: 2px solid goldenrod; */
+  padding: 1rem 0;
+}

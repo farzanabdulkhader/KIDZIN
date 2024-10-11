@@ -1,0 +1,41 @@
+.hero {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relativve;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.hero:hover {
+  border: 1px solid var(--peachy-red);
+  background: var(--peachy-red);
+}
+
+.redBtn {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--peachy-red);
+  border: 1px solid var(--peachy-red);
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relativve;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.redBtn:hover {
+  border: 1px solid var(--peachy-red);
+  background: var(--peachy-red);
+  color: #fff;
+}
+
+.hero,
+.redBtn {
+  letter-spacing: 0.5px;
+}

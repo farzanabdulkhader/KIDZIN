@@ -1,0 +1,31 @@
+.facilities {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+.facilitiesCol {
+  flex-basis: 31%;
+  border-radius: 10px;
+  text-align: left;
+}
+.facilitiesCol img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.facilitiesCol p {
+  padding: 0;
+}
+
+@media (max-width: 700px) {
+  .facilitiesCol p {
+    margin-bottom: 50px;
+  }
+}
+
+.facilitiesCol h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
