@@ -5,7 +5,7 @@
       rgba(81, 81, 81, 0.5),
       rgba(81, 81, 81, 0.5)
     ),
-    url("bg_images/red_girl_intro_crop.jpg");
+    url("/bg_images/red_girl_intro_crop.jpg");
   background-position: top;
   background-size: cover;
   position: relative;
